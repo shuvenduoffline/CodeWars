@@ -101,7 +101,7 @@ int len = mat.size();
     {
       for (int j = 0; j < len; j++)
 	{
-	  /* code */
+	  
 	  cout << mat[i][j] << " ";
 	}
       cout << endl;
