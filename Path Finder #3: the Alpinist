@@ -25,7 +25,7 @@ bool isvalid(pair<int,int> p,int n){
 
 int get_min_climb (pair < int, int >p, vector < vector < int >> mat, int n, int jump)
 {
-// cout<<"P "<<p.first<<p.second<<"  N"<<n<<"Jum "<<jump<<endl;
+// cout<<"P "<<p.first<<p.second<<"  N"<<n<<"Jum "<<jump<<endl; //This is nice..
   if (p.first == n - 1 && p.second == n - 1)
     return abs(jump - mat[p.first][p.second]);
 
